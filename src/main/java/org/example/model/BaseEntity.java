@@ -16,6 +16,7 @@ import java.util.UUID;
 @MappedSuperclass
 public abstract class BaseEntity {
     @Id
+    @Column(columnDefinition = "uuid default uuid_generate_v4()")
     @GeneratedValue(strategy = GenerationType.UUID)
     protected UUID id;
     @CreationTimestamp

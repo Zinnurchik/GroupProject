@@ -10,13 +10,14 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-@Table(name = "users")
+@Table(name = "employees")
 @ToString(callSuper = true)
-public class UserEntity extends BaseEntity {
+public class EmployeeEntity extends BaseEntity {
     private String name;
+    private String surname;
     @Column(unique = true)
     private String username;
     private String password;
-    private Double balance = 2500.0;
+    private Boolean isDeleted = false;
     private String role;
 }

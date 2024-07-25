@@ -48,7 +48,7 @@
     </style>
 </head>
 <body>
-<form action="${pageContext.request.contextPath}/auth/login" method="post">
+<form action="${pageContext.request.contextPath}/employees/login" method="post">
     <label>
         <input type="text" name="username" placeholder="Username" required>
     </label>
