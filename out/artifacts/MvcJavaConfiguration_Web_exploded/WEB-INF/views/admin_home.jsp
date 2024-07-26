@@ -81,7 +81,7 @@
 </div>
 <div class="menu">
     <a href="dashboard.jsp">Dashboard</a>
-    <a href="client.jsp">Client</a>
+    <a href="${pageContext.request.contextPath}/customers">Customers</a>
     <a href="settings.jsp">Settings</a>
     <a href="logout.jsp">Logout</a>
 </div>
