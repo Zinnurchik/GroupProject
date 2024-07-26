@@ -122,6 +122,7 @@
         <input type="hidden" name="id" value="${customer.id}"/>
         <button>ADD ORDER</button>
     </form>
+
 </div>
 </body>
 </html>
